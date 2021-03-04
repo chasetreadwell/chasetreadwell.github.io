@@ -1,0 +1,113 @@
+body {
+    font-family: "Hind", sans-serif;
+}
+
+/* Header*/
+
+header {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-text {
+    display: inline-block;
+}
+
+#logo-text h1{
+    color: #4A4A4A;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+#logo-text h1 span {
+    color: #9B9B9B;
+    font-weight: 400;
+}
+
+.logo img {
+    display: inline-block;
+    height: 64px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    margin-right: 24px;
+}
+
+nav span {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: darkslategray;
+    font-size: 28px;
+}
+
+/* Start Here */
+
+#start-here {
+    background-color: #D8D8D8;
+    align-items: left;
+}
+
+#start-here img {
+    width: 50%;
+    margin: 64px 48px;
+}
+
+#start-here .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 32px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    color: #4A4A4A;
+}
+
+h3 {
+    color: #4A4A4A;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+#start-here .flex-container h3 {
+    margin: 40px 0;
+}
+
+.button {
+    width: 90%;
+    background-color: #4A4A4A;
+}
+
+.button h4 {
+    padding: 16px 0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Information */
+
+/* Courses */
+
+/* Thesis */
+
+/* Footer */
